@@ -16,7 +16,7 @@ const HomeList = () => {
         <div className={css.heropanel__content}>
           <h1>
             <a href="/" rel="home">
-              Wellcome
+            Welcome
             </a>
           </h1>
         </div>
