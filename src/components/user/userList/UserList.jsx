@@ -69,8 +69,7 @@ const UserList = () => {
   const location = useLocation();
 
   const handleClick = (id) => {
-    console.log("bumerang");
-
+   
     getUsersById(id).then((user) => {
       let checkFollowing = Object.keys(user).includes("following");
       const { followers, following } = user;

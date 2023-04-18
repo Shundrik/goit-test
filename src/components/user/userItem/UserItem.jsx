@@ -5,12 +5,11 @@ import lineSvg from "../../../images/userCard/Rectangle 1.svg";
 import elipseSvg from "../../../images/userCard/Ellipse 1 (Stroke).svg";
 import bgSvg from "../../../images/userCard/picture2 1.svg";
 import logoSvg from "../../../images/userCard/Logo.svg";
-// import { editUser, getUsersById } from "../../../servises/api";
+
 
 const UserCardStyle = styled.li`
   display: block;
   position: relative;
-  /* padding: 20px; */
   width: 380px;
   height: 460px;
   border-radius: 20px;

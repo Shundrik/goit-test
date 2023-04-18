@@ -1,10 +1,8 @@
 import { NavLink, Route, Routes, useLocation } from "react-router-dom";
+import { lazy, Suspense } from "react";
+import styled from "styled-components";
 
 import NotFound from "./components/notFound";
-import { lazy } from "react";
-
-import styled from "styled-components";
-import { Suspense } from "react";
 
 const Container = styled.div`
   width: 100%;
@@ -12,7 +10,6 @@ const Container = styled.div`
   margin: 0 auto;
   box-sizing: border-box;
 `;
-
 const Nav = styled.nav`
   width: 100%;
   position: relative;
@@ -30,7 +27,6 @@ const Nav = styled.nav`
 
   margin-bottom: 20px;
 `;
-
 const StyledLink = styled(NavLink)`
   color: #ffffff;
   padding: 30px;
@@ -43,7 +39,6 @@ const Logo = styled.p`
   font-size: 40px;
   font-family: "Rubik Wet Paint";
   margin: 0;
-
   padding: 5px;
 `;
 
